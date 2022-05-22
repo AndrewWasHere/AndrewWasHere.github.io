@@ -745,7 +745,7 @@ We then call `on_exit!()` for every state from the active state up to, but not
 including, the common parent. 
 
 ```julia
-    while s != parent_state(cp)
+    while s != cp
         on_exit!(s)
         s = parent_state(s)
     end
