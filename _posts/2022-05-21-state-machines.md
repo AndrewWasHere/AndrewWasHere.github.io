@@ -1101,3 +1101,8 @@ in
 [HSM.jl](https://github.com/AndrewWasHere/HSM.jl). 
 It's got an extra units state (Kelvin), and takes advantage of Julia macros for 
 the state constructors, but is otherwise equivalent to what was presented here.
+There is also an interactive version of the thermometer state machine in Pluto
+notebook form in 
+[thermometer-notebook.jl](https://github.com/AndrewWasHere/HSM.jl/blob/main/example/thermometer-notebook.jl)
+in HSM.jl. It gives you buttons and sliders to initiate events to the
+thermometer state machine with, and outputs traces from the event processing.
