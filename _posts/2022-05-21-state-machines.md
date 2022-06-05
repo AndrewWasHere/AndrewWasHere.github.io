@@ -242,7 +242,7 @@ Celsius and Fahrenheit by transitioning between the two OnState sub-states.
 
 With states embedded in states, transitions can become tricky. Transitioning
 from a sub-state to another state can mean not only exiting the previously active
-state, but its parent state (and, potentially, its parent states's parent state,
+state, but its parent state (and, potentially, its parent state's parent state,
 etc.) as well. Entering a state can mean not only entering that state, but its 
 parent (and, potentially, it's parent's parent, etc). Care must be taken to 
 track the hierarchy of state affected by state transitions.
