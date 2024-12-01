@@ -398,19 +398,19 @@ struct ThermometerStateMachine <: AbstractHsmState
   ThermometerStateMachine(parent, thermometer) = new(HsmStateInfo(parent), thermometer)
 end
 
-struct OffState <: AbstractStateMachine
+struct OffState <: AbstractHsmState
   # Looks exactly like ThermometerStateMachine, except for the constructor name.
 end
 
-struct OnState <: AbstractStateMachine
+struct OnState <: AbstractHsmState
   # Looks exactly like ThermometerStateMachine, except for the constructor name.
 end
 
-struct CelsiusState <: AbstractStateMachine
+struct CelsiusState <: AbstractHsmState
   # Looks exactly like ThermometerStateMachine, except for the constructor name.
 end
 
-struct FahrenheitState <: AbstractStateMachine
+struct FahrenheitState <: AbstractHsmState
   # Looks exactly like ThermometerStateMachine, except for the constructor name.
 end
 ```
